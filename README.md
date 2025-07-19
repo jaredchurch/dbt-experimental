@@ -5,6 +5,36 @@
 <details>
 <summary>
 
+## Quick Start
+
+</summary>
+
+1. Ensure you have [Codespaces](https://github.com/features/codespaces) enabled for your GitHub organization or turned on as a beta feature if you're an individual user
+2. Click the green **Code** button on near the top right of the page of this repo's homepage (you may already be on it)
+3. Instead of cloning the repo like you normally would, instead select the **Codespaces** tab of the pop out, then "Create codespace on `duckdb`"
+   ![dbt_full_deploy_commands](images/open_in_codespaces.png)
+4. Wait for codespace to boot (~1 min?)
+5. Decide whether you'd like to use the Web IDE or open the codespace in your local environment
+6. When the codespace opens, a Task pane will show up and call `dbt build` just to show you how it's done
+7. Decide whether or not you'd like the recommended extensions installed (like **dbt Power User extension**)
+8. Open up a new terminal and type:
+    ```
+    dbt build
+    ```
+9. Now Generate, serve & explore docs web. Open up a new terminal and run:
+    ```
+    dbt docs generate
+    dbt --log-path /tmp/logs docs serve
+    ```
+10. Further reading on [dbt Getting Started](https://docs.getdbt.com/docs/get-started-dbt)
+
+
+
+
+</details>
+<details>
+<summary>
+
 ## What is this repo?
 
 </summary>
