@@ -26,7 +26,16 @@
     dbt docs generate
     dbt --log-path /tmp/logs docs serve
     ```
-10. Further reading on [dbt Getting Started](https://docs.getdbt.com/docs/get-started-dbt)
+10. Look at the database, following commands are useful:
+
+|Command|Purpose|
+|---|---|
+|duckcli jaffle_shop.duckdb|Start up the DuckDB terminal interface|
+|select table_schema,table_name from information_schema.tables|Show list of tables in database|
+|select * from main_present.customers|Show from customers table|
+
+10. Explore the contents of the models directory
+11. Further reading on [dbt Getting Started](https://docs.getdbt.com/docs/get-started-dbt)
 
 
 
