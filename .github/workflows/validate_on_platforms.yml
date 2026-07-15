@@ -13,7 +13,7 @@ jobs:
       steps:
         - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
         - name: Set up Python
-          uses: actions/setup-python@v4
+          uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
           with:
             python-version: "3.12.x"
         - name: Full Deploy Commands
@@ -37,7 +37,7 @@ jobs:
       steps:
         - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
         - name: Set up Python
-          uses: actions/setup-python@v4
+          uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4v4
           with:
             python-version: "3.12.x"
         - name: Full Deploy Commands
@@ -61,7 +61,7 @@ jobs:
       steps:
         - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
         - name: Set up Python
-          uses: actions/setup-python@v4
+          uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
           with:
             python-version: "3.12.x"
         - name: Full Deploy Commands
@@ -85,7 +85,7 @@ jobs:
       steps:
         - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
         - name: Set up Python
-          uses: actions/setup-python@v4
+          uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
           with:
             python-version: "3.12.x"
         - name: Full Deploy Commands
@@ -109,7 +109,7 @@ jobs:
       steps:
         - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
         - name: Set up Python
-          uses: actions/setup-python@v4
+          uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
           with:
             python-version: "3.12.x"
         - name: Full Deploy Commands
